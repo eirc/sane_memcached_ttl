@@ -2,7 +2,7 @@ language: ruby
 cache:
   - bundler
   - apt
-before_script:
+before_install:
   - curl http://packages.couchbase.com/ubuntu/couchbase.key | sudo apt-key add -
   - echo "deb http://packages.couchbase.com/ubuntu precise precise/main" | sudo tee -a /etc/apt/sources.list
   - sudo apt-get update -qq
