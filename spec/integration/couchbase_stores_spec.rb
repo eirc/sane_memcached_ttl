@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'active_support/cache/couchbase_store_with_sane_ttl'
+require 'active_support/cache'
 
 module ActiveSupport::Cache
   describe 'couchbase stores' do

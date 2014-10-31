@@ -1,5 +1,6 @@
 require 'spec_helper'
-require 'active_support/cache/mem_cache_store_with_sane_ttl'
+require 'active_support/cache'
+require 'dalli'
 
 module ActiveSupport::Cache
   describe 'mem cache stores' do

@@ -1,5 +1,7 @@
 require 'spec_helper'
-require 'active_support/cache/dalli_store_with_sane_ttl'
+require 'active_support/cache'
+require 'active_support/notifications'
+require 'dalli'
 
 module ActiveSupport::Cache
   describe 'dalli stores' do
