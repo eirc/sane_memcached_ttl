@@ -1,5 +1,11 @@
 # SaneMemcachedTtl
 
+[![Build Status](https://travis-ci.org/eirc/sane_memcached_ttl.svg?branch=v0.0.1)](https://travis-ci.org/eirc/sane_memcached_ttl)
+[![Code Climate](https://codeclimate.com/github/eirc/sane_memcached_ttl/badges/gpa.svg)](https://codeclimate.com/github/eirc/sane_memcached_ttl)
+[![Gem Version](https://badge.fury.io/rb/sane_memcached_ttl.svg)](http://badge.fury.io/rb/sane_memcached_ttl)
+[![Dependency Status](https://gemnasium.com/eirc/sane_memcached_ttl.svg)](https://gemnasium.com/eirc/sane_memcached_ttl)
+[![Gem Downloads](http://ruby-gem-downloads-badge.herokuapp.com/sane_memcached_ttl)
+
 Work around memcached's [feature](https://code.google.com/p/memcached/wiki/NewProgramming#Expiration) of treating expiration times larger than one month as timestamps for Rails cache stores.
 
 This is a memcached documented behaviour:
