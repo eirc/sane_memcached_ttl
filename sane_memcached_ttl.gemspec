@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SaneMemcachedTtl::VERSION
   spec.authors       = ['Errikos Koen']
   spec.email         = ['eirc.eric@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ''
+  spec.summary       = %q{Add sanity to memcached expiration times.}
+  spec.homepage      = 'https://github.com/eirc/sane_memcached_ttl'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
